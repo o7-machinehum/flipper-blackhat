@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "3340_kicad")(type "KiCad")(uri "${KIPRJMOD}/3340_kicad/3340_kicad.kicad_sym")(options "")(descr ""))
   (lib (name "board-rescue")(type "KiCad")(uri "${KIPRJMOD}/board-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "lichee_rv_m2")(type "KiCad")(uri "${KIPRJMOD}/../lib/2199119-5/lichee_rv.kicad_sym")(options "")(descr ""))
 )
