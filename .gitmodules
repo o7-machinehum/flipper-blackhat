@@ -1,0 +1,3 @@
+[submodule "ee/KiCAD"]
+	path = ee/KiCAD
+	url = git@github.com:OLIMEX/KiCAD.git
