@@ -683,7 +683,7 @@
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp 08afcf97-58b7-4bf0-9e02-d0552481a6b5))
     (pad "2" thru_hole circle (at 2.54 2.54) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (zone_layer_connections)
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp 7a55804c-5123-497f-ac3f-acc2faa08405))
-    (model "../lib/901-143-6RFX.step"
+    (model "${KIPRJMOD}/../kilib/kilib.pretty/step/901-143-6RFX.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 90))
@@ -3663,7 +3663,7 @@
       (net 1 "GND") (pinfunction "Shield") (pintype "passive") (thermal_bridge_angle 45) (tstamp dcafaaec-ead3-4374-b728-4be2b63e3d0d))
     (pad "5" thru_hole oval (at 6.4 -3.55 180) (size 1.2 2.9) (drill oval 0.6 2.3) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "Shield") (pintype "passive") (thermal_bridge_angle 45) (tstamp a3c8f47d-2dc3-44f2-86a9-92d8ba07fe27))
-    (model "${KIPRJMOD}/../lib/USB1046-GF-0190-L-B-B.stp"
+    (model "${KIPRJMOD}/../kilib/kilib.pretty/step/USB1046-GF-0190-L-B-B.stp"
       (offset (xyz 0 -6.8 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
