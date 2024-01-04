@@ -2,6 +2,5 @@
   (version 7)
   (lib (name "board-rescue")(type "KiCad")(uri "${KIPRJMOD}/board-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "lichee_rv_m2")(type "KiCad")(uri "${KIPRJMOD}/../lib/2199119-5/lichee_rv.kicad_sym")(options "")(descr ""))
-  (lib (name "olimex")(type "Legacy")(uri "${KIPRJMOD}/../KiCAD/KiCAD_Components/OLIMEX_IC.lib")(options "")(descr ""))
   (lib (name "rtl8723ds")(type "KiCad")(uri "${KIPRJMOD}/../lib/rtl8723ds/rtl8723ds.kicad_sym")(options "")(descr ""))
 )

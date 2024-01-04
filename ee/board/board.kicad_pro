@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.7,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -861,6 +861,10 @@
     [
       "d62f127e-a6fd-4e61-9b88-d06a2a20a0e4",
       ""
+    ],
+    [
+      "6a3d3afb-e2ab-4341-8812-70401b1f368e",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

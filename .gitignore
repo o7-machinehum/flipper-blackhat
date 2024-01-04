@@ -30,3 +30,4 @@ fp-info-cache
 *.ses
 
 ee/board/board-backups/
+.DS_Store
