@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Flipper Blackhat")
+    (date "2024-01-09")
+    (rev "R0.1")
+    (company "Interrupt Labs")
+    (comment 1 "Ryan Walker")
+    (comment 2 "Walker@interruptlabs.ca")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
@@ -2938,6 +2947,9 @@
     (property "Datasheet" "~" (at 124.46 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "CC0603KRX7R7BB102" (at 124.46 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ecef2519-ca4c-4f13-bf34-51e0d9b3ddc1))
     (pin "2" (uuid 62bd2594-ce43-4d5f-b97d-51e4977a27d3))
     (instances
@@ -3136,6 +3148,9 @@
     (property "Datasheet" "~" (at 185.42 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "CC0603KRX7R7BB223" (at 185.42 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid da3061fa-c205-40c4-af18-e044ec6050c2))
     (pin "2" (uuid 8d1c88ac-f232-4d4b-8975-19ef194e505e))
     (instances
@@ -3160,6 +3175,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 181.61 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CC0603KRX7R7BB223" (at 181.61 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8a7d13fe-e875-4fc3-b90e-5dde42d3b44a))

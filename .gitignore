@@ -31,3 +31,5 @@ fp-info-cache
 
 ee/board/board-backups/
 .DS_Store
+
+token_storage.json
