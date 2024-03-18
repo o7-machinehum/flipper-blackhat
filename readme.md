@@ -1,12 +1,11 @@
 # Flipper Blackhat
+The Flipper Blackhat is a Flipper addon board that runs Linux. It is primarily used for WiFi testing and hacking.
+![](img/blackhat.png)
 
-[](https://linux-sunxi.org/Lctech_Pi_F1C200s)
+## Other Resources
+    - [Operating System](https://github.com/o7-machinehum/flipper-blackhat-os)
+    - [App](https://github.com/o7-machinehum/flipper-blackhat-app)
 
-- RTL8201F
-    - Ethernet phy
-- HR911105A
-    - Ethernet jack
-- 4D02WGJ0220TCE
-    - Device:R_Pack04
-    - Resistor_SMD:R_Array_Convex_4x0402
-
+## R1 Issues
+    - Reset button doesn't work
+    - Spacing between M.2 Connectors WRONG
