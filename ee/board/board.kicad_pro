@@ -833,6 +833,22 @@
     [
       "6a3d3afb-e2ab-4341-8812-70401b1f368e",
       "Ethernet"
+    ],
+    [
+      "c120cd3d-295b-4e8b-85b0-c785709dffa6",
+      "MPU"
+    ],
+    [
+      "72973d46-8c3c-444b-9ee6-4a8e88980a92",
+      "WiFi"
+    ],
+    [
+      "4f6ff299-2f72-4430-bc04-feb1b2e9f0c6",
+      "RAM"
+    ],
+    [
+      "e51aca0b-a1c8-4d1d-bea2-80cb56ed17e1",
+      "Power_converter"
     ]
   ],
   "text_variables": {}
