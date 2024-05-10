@@ -481,7 +481,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -491,9 +491,9 @@
         "name": "RAM_HS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
