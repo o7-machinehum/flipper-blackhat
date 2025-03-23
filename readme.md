@@ -4,14 +4,6 @@ The Flipper Blackhat is a Linux based Flipper addon that enables WiFi attacks. I
 
 ![](img/blackhat3.jpg)
 
-## TODO (Next Board Rev)
-
-    - [ ] TVS diodes on USB
-    - [ ] Reset button
-    - [ ] LED
-    - [ ] Mounting holes for mech
-    - [ ] Cost analasys
-
 ## License
 The project is licensed under the Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike license. This allows sharing and adapting material for non-commercial purposes, provided credit is given to the creator and adaptations are shared under the same terms. The material can be used in any format with necessary technical modifications, but no warranties are provided. The license prohibits imposing additional restrictions and ensures the rights are irrevocable as long as the terms are followed.
 
