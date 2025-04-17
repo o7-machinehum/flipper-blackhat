@@ -1569,8 +1569,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "R2/fab/gerb/",
-      "pos_files": "R2/fab/",
+      "plot": "R2.1/fab/gerb/",
+      "pos_files": "R2.1/fab/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -1580,7 +1580,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "R2/fab/hardware.csv",
+    "bom_export_filename": "R2.1/fab/hardware.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1697,7 +1697,7 @@
     },
     "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
-    "plot_directory": "R0.1",
+    "plot_directory": "R2.1",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

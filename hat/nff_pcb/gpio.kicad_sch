@@ -10,20 +10,20 @@
 		(company "Interrupt Labs")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74AHC1G32"
+		(symbol "74xGxx:74LVC1G08"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -2.54 3.81 0)
+				(at -5.08 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "74AHC1G32"
-				(at 0 -3.81 0)
+			(property "Value" "74LVC1G08"
+				(at 7.62 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single OR Gate, Low-Voltage CMOS"
+			(property "Description" "Single AND Gate, Low-Voltage CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Gate OR LVC CMOS"
+			(property "ki_keywords" "Single Gate AND LVC CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT* SG-*"
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,93 +75,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "74AHC1G32_0_1"
-				(arc
-					(start -7.62 -5.08)
-					(mid -5.838 0)
-					(end -7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "74LVC1G08_0_1"
 				(arc
 					(start 0 -5.08)
-					(mid 3.1986 -3.2054)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -6.35 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.2238 3.2304)
+					(mid 5.0579 0)
 					(end 0 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
-			(symbol "74AHC1G32_1_1"
+			(symbol "74LVC1G08_1_1"
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
@@ -7338,12 +7278,6 @@
 		(uuid "26c8fea2-139a-4b6c-873e-af98d3dda7a8")
 	)
 	(junction
-		(at 104.14 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "392f2b46-ef24-4b85-8c0e-d3e9cad7e365")
-	)
-	(junction
 		(at 240.03 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7360,6 +7294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e5af83f-4b10-4068-8fdc-147fbe38dbec")
+	)
+	(junction
+		(at 105.41 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fa5f7eb-7eaf-4008-ad95-17299cdb4087")
 	)
 	(junction
 		(at 125.73 96.52)
@@ -7760,7 +7700,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 170.18) (xy 104.14 175.26)
+			(xy 105.41 170.18) (xy 105.41 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8080,7 +8020,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 170.18) (xy 101.6 170.18)
+			(xy 101.6 170.18) (xy 105.41 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8220,7 +8160,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 179.07) (xy 104.14 175.26)
+			(xy 101.6 179.07) (xy 105.41 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8510,7 +8450,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 170.18) (xy 104.14 170.18)
+			(xy 106.68 170.18) (xy 105.41 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9050,7 +8990,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 179.07) (xy 100.33 179.07)
+			(xy 96.52 179.07) (xy 101.6 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9227,6 +9167,16 @@
 			(type default)
 		)
 		(uuid "ddb18334-2524-4616-a26d-11ba7df1fd74")
+	)
+	(wire
+		(pts
+			(xy 105.41 158.75) (xy 105.41 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1223789-fee3-4fd2-ba0d-1b6a5e6133e1")
 	)
 	(wire
 		(pts
@@ -9447,6 +9397,16 @@
 			(type default)
 		)
 		(uuid "f6b1cc0c-771f-4e31-979b-4e921aa40c29")
+	)
+	(wire
+		(pts
+			(xy 105.41 166.37) (xy 105.41 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7487248-81fc-4e73-a1dd-b2f4d0577f1b")
 	)
 	(bus
 		(pts
@@ -14066,6 +14026,95 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74LVC1G08")
+		(at 86.36 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e691bec-1d72-41d6-8d2a-28acf30c04e6")
+		(property "Reference" "U13"
+			(at 89.3765 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LVC1G08"
+			(at 89.3765 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7570f860-b09d-4fc1-8b74-6410d9119b1a")
+		)
+		(pin "3"
+			(uuid "b56ec1c1-e5ee-45f7-a73f-3720a9340163")
+		)
+		(pin "1"
+			(uuid "68f9b5ff-798a-477b-a81a-24463b119744")
+		)
+		(pin "4"
+			(uuid "f725f43b-1cc9-4516-8280-4e4cb287a8bd")
+		)
+		(pin "2"
+			(uuid "8197aeae-5a85-48ac-9d8e-366b8adbfa2a")
+		)
+		(instances
+			(project ""
+				(path "/3fcdd6ae-e60a-4a06-818a-95d65ab6c907/00000000-0000-0000-0000-00006063be69"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
 		(at 93.98 179.07 0)
 		(unit 1)
@@ -14215,6 +14264,82 @@
 			(project "hardware"
 				(path "/3fcdd6ae-e60a-4a06-818a-95d65ab6c907/00000000-0000-0000-0000-00006063be69"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 105.41 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39c0f47f-ecd5-4ff7-950c-5041e80c433d")
+		(property "Reference" "R15"
+			(at 108.966 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 108.966 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-13100KL"
+			(at 105.41 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f16ab174-1aac-49e3-9cfc-7ead858014e6")
+		)
+		(pin "2"
+			(uuid "09bb7d34-7e7a-4cf6-8ab4-04b287ad0180")
+		)
+		(instances
+			(project "hardware"
+				(path "/3fcdd6ae-e60a-4a06-818a-95d65ab6c907/00000000-0000-0000-0000-00006063be69"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14521,94 +14646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G32")
-		(at 86.36 167.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72dbfa90-7ea9-4a82-ac7a-b95c29712b54")
-		(property "Reference" "U13"
-			(at 87.122 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "74AHC1G32"
-			(at 87.122 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 86.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 86.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single OR Gate, Low-Voltage CMOS"
-			(at 86.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SN74LVC1G32DCKT"
-			(at 86.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe036d39-9639-440c-bdd7-f05f872f5c81")
-		)
-		(pin "2"
-			(uuid "bf86cf62-7d33-48bb-a585-83752a013865")
-		)
-		(pin "3"
-			(uuid "0e497458-5afb-45a2-a153-870b0f7874b1")
-		)
-		(pin "4"
-			(uuid "5055da3c-fec9-4481-af30-34e7990b705f")
-		)
-		(pin "5"
-			(uuid "394b88cb-0547-4dad-8b3b-d61814c5c019")
-		)
-		(instances
-			(project ""
-				(path "/3fcdd6ae-e60a-4a06-818a-95d65ab6c907/00000000-0000-0000-0000-00006063be69"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hardware-rescue:GND-power")
 		(at 121.92 135.89 0)
 		(mirror y)
@@ -14904,6 +14941,71 @@
 			(project "hardware"
 				(path "/3fcdd6ae-e60a-4a06-818a-95d65ab6c907/00000000-0000-0000-0000-00006063be69"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 105.41 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95c19657-2bf3-4466-92f5-1c55f128d38c")
+		(property "Reference" "#PWR0148"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38bb78f5-02ec-456f-9026-58109911aec6")
+		)
+		(instances
+			(project "hardware"
+				(path "/3fcdd6ae-e60a-4a06-818a-95d65ab6c907/00000000-0000-0000-0000-00006063be69"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)

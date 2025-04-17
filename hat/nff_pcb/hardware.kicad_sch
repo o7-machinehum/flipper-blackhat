@@ -7054,7 +7054,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM158R60J226ME01D"
+		(property "MPN" "GRM155R60J226ME11D"
 			(at 193.04 82.55 0)
 			(effects
 				(font
@@ -7597,7 +7597,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM158R60J226ME01D"
+		(property "MPN" "GRM155R60J226ME11D"
 			(at 245.11 106.68 0)
 			(effects
 				(font
@@ -8811,7 +8811,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM158R60J226ME01D"
+		(property "MPN" "GRM155R60J226ME11D"
 			(at 209.55 30.48 0)
 			(effects
 				(font
